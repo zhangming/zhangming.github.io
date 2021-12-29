@@ -24,3 +24,8 @@
 * 配置entry,output 完成最简单的打包
 ![image.png](https://s2.loli.net/2021/12/29/xOLjdPibGHneRva.png)
 
+
+### 通过npm script 运行webpack
+* package.json 增加script 命令
+![image.png](https://s2.loli.net/2021/12/29/XjpEr15ovCKbGL9.png)
+
