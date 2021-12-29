@@ -9,5 +9,17 @@
 * ant + YUI TOOL -> grunt ->fis3/gulp -> rollup/webpack/parcel
 
 ### 初识webpack
+* webpack 默认配置文件：webpack.config.js
+* 可以通过webpack --config 指定配置文件
+![image.png](https://s2.loli.net/2021/12/29/sfdgIBkKSGWelnv.png)
+
+### 环境搭建：安装webpack
+* 安装 nvm
+* 安装Node.js 和 NPM
+
+### webpack 初体验：一个最简单的例子
+* mkdir my-project
+* npm init -y
+* npm install webpack webpack-cli --save-dev
 * 
 
