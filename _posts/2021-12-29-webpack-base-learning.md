@@ -1,4 +1,4 @@
-### 为设什么需要构建工具
+### 为什么需要构建工具
 * 转换ES6语法
 * 转换JSX
 * css前缀补全/预处理器
@@ -40,3 +40,14 @@
 * 多入口output 配置
 ![image.png](https://s2.loli.net/2021/12/29/oaQD6n3rVLychBm.png)
 
+### webpack 核心概念之loaders
+* webpack原生只支持JS和JSON两种文件类型
+* 通过loaders去支持其它文件类型，把它们转换成有效的模块，并且可以添加到依赖图中
+* 本身是个函数，接受源文件作为参数，返回转换的结果
+* 常用的loaders
+![image.png](https://s2.loli.net/2021/12/29/HK9XNCkTFBa3rSz.png)
+* loaders的用法
+![image.png](https://s2.loli.net/2021/12/29/UISWo31AEkxvdBn.png)
+![image.png](https://s2.loli.net/2021/12/29/Mk8URN976Yayoqn.png)
+
+### 
