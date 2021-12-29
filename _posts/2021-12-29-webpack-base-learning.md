@@ -29,3 +29,6 @@
 * package.json 增加script 命令
 ![image.png](https://s2.loli.net/2021/12/29/XjpEr15ovCKbGL9.png)
 
+### webpack 核心概念之entry
+* 入口文件，单页面的值是个string,多页面值是Object里面是key value 格式指定入口
+![image.png](https://s2.loli.net/2021/12/29/PX6kSKnYma85jgR.png)
