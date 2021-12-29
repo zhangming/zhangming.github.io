@@ -40,6 +40,14 @@ title可加可不加
 
 [简书](http://jianshu.com)
 [百度](http://baidu.com)
+
+<a href="超链接地址" target="_blank">超链接名</a>
+
+示例
+<a href="https://www.jianshu.com/u/1f5ac0cf6a8b" target="_blank">简书</a>
+
+
+
 - 列表内容
 + 列表内容
 * 列表内容
@@ -47,11 +55,13 @@ title可加可不加
 注意：- + * 跟内容之间都要有一个空格
 
 
+
 1. 列表内容
 2. 列表内容
 3. 列表内容
 
 注意：序号跟内容之间要有空格
+
 
 
 表头|表头|表头
@@ -66,13 +76,18 @@ title可加可不加
 -右边加：表示文字居右
 注：原生的语法两边都要用 | 包起来。此处省略
 
+
 姓名|技能|排行
 --|:--:|--:
 刘备|哭|大哥
 关羽|打|二哥
 张飞|骂|三弟
 
+
+
 *代码示例*
+
+
 `create database hero;`
 (```)
     function fun(){
@@ -81,7 +96,17 @@ title可加可不加
     fun();
 (```)
 
+*流程图*
 
+```flow
+st=>start: 开始
+op=>operation: My Operation
+cond=>condition: Yes or No?
+e=>end
+st->op->cond
+cond(yes)->e
+cond(no)->op
+&```
 
 
 
