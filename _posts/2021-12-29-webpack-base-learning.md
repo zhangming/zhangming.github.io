@@ -30,5 +30,13 @@
 ![image.png](https://s2.loli.net/2021/12/29/XjpEr15ovCKbGL9.png)
 
 ### webpack 核心概念之entry
-* 入口文件，单页面的值是个string,多页面值是Object里面是key value 格式指定入口
+* 入口文件，单页面的值是个string，多页面值是Object里面是key value 格式指定入口
 ![image.png](https://s2.loli.net/2021/12/29/PX6kSKnYma85jgR.png)
+
+### webpack 核心概念之output
+* output 用来告诉webpack 如何将编译后的文件输出到磁盘
+* 单入口output 配置
+ ![image.png](https://s2.loli.net/2021/12/29/Jo9qM8TPelxZ4vH.png)
+* 多入口output 配置
+![image.png](https://s2.loli.net/2021/12/29/oaQD6n3rVLychBm.png)
+
