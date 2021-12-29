@@ -21,5 +21,6 @@
 * mkdir my-project
 * npm init -y
 * npm install webpack webpack-cli --save-dev
-* 
+* 配置entry,output 完成最简单的打包
+![image.png](https://s2.loli.net/2021/12/29/xOLjdPibGHneRva.png)
 
