@@ -60,7 +60,12 @@
 ### webpack 核心概念之mode
 * Mode用来指定当前的构建环境是：production、development、还是 none
 * 设置Mode可以使用webpack内置的函数，默认值为production
+* Mode的内置函数功能
+![image.png](https://s2.loli.net/2021/12/29/M5vduhjI6SKYzRy.png)
+* Mode的使用方法  mode:"production"
 
+### 解析ECMAScript6和React JSX
+*
 
 
 
