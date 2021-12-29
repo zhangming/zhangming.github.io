@@ -50,4 +50,19 @@
 ![image.png](https://s2.loli.net/2021/12/29/UISWo31AEkxvdBn.png)
 ![image.png](https://s2.loli.net/2021/12/29/Mk8URN976Yayoqn.png)
 
-### 
+### webpack 核心概念之plugins
+* 用于bundle文件的优化，资源管理和环境变量注入，作用于整个构建过程
+* 常见的Plugins
+![image.png](https://s2.loli.net/2021/12/29/usYcrFXBhIQZngR.png)
+* Plugins的用法
+![image.png](https://s2.loli.net/2021/12/29/ptd6SFglvCaHLrQ.png)
+
+### webpack 核心概念之mode
+* Mode用来指定当前的构建环境是：production、development、还是 none
+* 设置Mode可以使用webpack内置的函数，默认值为production
+
+
+
+
+
+
