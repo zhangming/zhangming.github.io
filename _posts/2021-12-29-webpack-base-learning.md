@@ -73,7 +73,11 @@
 * css-loader 用于加载.css文件，并且转化成commonjs对象、
 * style-loader 将样式通过<style>标签插入到head中
 * 配置loader时，loader是链式调用，执行顺序是从右到左的，所以如下配置是先执行css-loader
- ![image.png](https://s2.loli.net/2021/12/30/EmoZ5YqHSzAItKB.png)
+ 
+![image.png](https://s2.loli.net/2021/12/30/EmoZ5YqHSzAItKB.png)
 
-
+ 
+### 解析图片和字体
+ 
+ 
 
