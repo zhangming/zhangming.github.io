@@ -65,7 +65,9 @@
 * Mode的使用方法  mode:"production"
 
 ### 解析ECMAScript6和React JSX
-*
+* 安装 babel-loader: npm i @babel/core @babel/preset-env babel-loader -D
+* 增加 .babelrc文件
+![image.png](https://s2.loli.net/2021/12/30/OHb9Ty2er3EDWFw.png)
 
 
 
