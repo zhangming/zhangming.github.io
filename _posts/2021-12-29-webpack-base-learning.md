@@ -94,6 +94,9 @@
    某个文件发生了变化。并不会立刻告诉监听者，而是县缓存起来，等aggregateTimeout
  ![image.png](https://s2.loli.net/2022/01/04/MdNwtJlg7sX6Z15.png)
   
+ ### webpack 中的热更新及原理分析
+ * 热更新 webpack-dev-server, wds不刷新浏览器，wds不输出文件而是放在内存中，使用HotModuleReplacementPlugin插件
+ * 热更新 webpack-dev-middleware, wdm将webpack输出的文件传输给服务器，适用于灵活场景的定制
  
  
 
