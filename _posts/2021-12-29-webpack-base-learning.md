@@ -86,9 +86,7 @@
  ### webpack中的文件监听
  * 文件监听是在发现源码发生变化时，自动重新构建出新的输出文件
  * webpack 开启监听模式，有两种方式：
- 
    启动webpack 命令时，带上 --watch 参数
- 
    在配置 webpack.config.js 中设置 watch:true
  
  
