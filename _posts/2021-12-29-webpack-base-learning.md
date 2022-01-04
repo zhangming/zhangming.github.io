@@ -78,6 +78,10 @@
 
  
 ### 解析图片和字体
+ * file-loader 用于处理文件， png/svg/jpg/gif 等；
+ * file-loader 也可用于处理字体文件，woff/woff2/eot/ttf/otf 等
+ * url-loader 也可以处理图片和字体，可以设置较小资源自动base64
+ ![image.png](https://s2.loli.net/2022/01/04/wAYBIkQMTW2rbqL.png)
  
  
  
