@@ -100,5 +100,28 @@
  * 热更新原理分析：
  ![image.png](https://s2.loli.net/2022/01/04/RnrfWpB5xezw3s2.png)
  
+ ### 文件指纹策略：chunkhash、contentHash和hash
+ * Hash: 和整个项目的构建相关，只要项目文件有修改，整个项目构建的hash值就会更改
+ * Chunkhash: 和webpack打包的chunk有关，不同的entry会生成不同的chunkhash值
+ * Contenthash: 根据文件内容来定义hash，文件内容不变则contenthash不变
+ * 设置output的filename，使用[chunkhash]
+ 
+ ### HTML、CSS和JavaScript代码压缩
+ * JS文件压缩，内置了 uglifyjs-webpack-plugin
+ * Css文件压缩，使用optimize-css-assets-webpack-plugin 同时使用cssnano
+ * Html文件压缩，修改html-webpack-plugin，设置压缩参数
+ 
+
+>>有三个比较容易混淆的概念，bundle，chunk和module。
+bundle：打包最终生成的文件
+chunk：每个chunk是由多个module组成，可以通过代码分割成多个chunk。
+module：webpack中的模块（js、css、图片等等）
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
 
