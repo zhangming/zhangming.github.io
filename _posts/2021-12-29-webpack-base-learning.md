@@ -71,12 +71,10 @@
 
 ### 解析Css、Less和Sass
 * css-loader 用于加载.css文件，并且转化成commonjs对象、
-* style-loader 将样式通过<style>标签插入到head中
-* 配置loader时，loader是链式调用，执行顺序是从右到左的，所以如下配置是先执行css-loader
- 
+* style-loader 将样式通过<style/>标签插入到head中
+* 配置loader时，loader是链式调用，执行顺序是从右到左的，所以如下配置是先执行css-loader 
 ![image.png](https://s2.loli.net/2021/12/30/EmoZ5YqHSzAItKB.png)
 
- 
 ### 解析图片和字体
  * file-loader 用于处理文件， png/svg/jpg/gif 等；
  * file-loader 也可用于处理字体文件，woff/woff2/eot/ttf/otf 等
