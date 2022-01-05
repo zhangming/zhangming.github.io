@@ -1,0 +1,14 @@
+## webpack 进阶
+
+### 自动清理构建目录产物
+* 通过npm scripts 清理构建目录 rm -rf ./dist && webpack 或者 rimraf ./dist && webpack
+* 避免构建前每次都要手动删除dist，使用 clean-webpack-plugin(默认会删除output指定的输出目录)
+
+### PostCSS插件autoprefixer自动补齐css3前缀
+* 具体配置如下：
+![image.png](https://s2.loli.net/2022/01/05/Je1MnxKur4hLQYw.png)
+
+
+
+
+
