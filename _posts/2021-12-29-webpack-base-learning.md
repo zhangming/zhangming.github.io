@@ -106,7 +106,7 @@
  
  ### HTML、CSS和JavaScript代码压缩
  * JS文件压缩，内置了 uglifyjs-webpack-plugin
- * Css文件压缩，使用optimize-css-assets-webpack-plugin 同时使用cssnano
+ * Css文件压缩，使用optimize-css-assets-webpack-plugin（webpack5使用css-minimizer-webpack-plugin） 同时使用cssnano
  * Html文件压缩，修改html-webpack-plugin，设置压缩参数
  
 
