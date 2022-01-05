@@ -8,7 +8,21 @@
 * 具体配置如下：
 ![image.png](https://s2.loli.net/2022/01/05/Je1MnxKur4hLQYw.png)
 
+### 移动端CSS PX自动转换成rem
+* 移动端机型众多，分辨率不同，需要做适配
+* 最早的适配，CSS 媒体查询实现响应式布局，缺陷：要写多套适配样式代码
+* css3 推出rem的适配单位，w3c对rem定义：font-size of the root element
+* rem和px的对比：rem 是相对单位，px 是绝对单位
+* 使用 px2rem-loader将px转换成rem，页面渲染时计算根元素的font-size值
 
+
+### 静态资源内联
+* 资源内联的意义：
+  代码层面：页面框架初始化脚本，上报相关打点，css内联避免页面闪动
+  请求层面：减少HTTP网络请求（小图片或者字体内联 url-loader）
+* 内联html和js：raw-loader
+![image.png](https://s2.loli.net/2022/01/05/YrhUOTaAzk6XWl1.png)
+* css内联 ：style-loader 或 html-inline-css-webpack-plugin
 
 
 
