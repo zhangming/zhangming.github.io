@@ -28,4 +28,12 @@
 ### 多页面应用打包通用方案
 * 多页面打包的基本思路：每个页面对应一个entry,一个html-webpack-plugin(缺点：每次新增或删除页面需要改webpack配置)
 * 多页面打包通用方案：动态获取entry和设置html-webpack-plugin数量，利用glob.sync
-    entry: glob.sync(path.join(__dirname,'./src/*/index.js'))
+    `entry: glob.sync(path.join(__dirname,'./src/*/index.js'))`
+
+
+
+
+
+
+
+
