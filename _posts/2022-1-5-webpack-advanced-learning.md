@@ -34,7 +34,7 @@
 ### 使用 sourcemap
 * 作用：通过source map 定位到源代码
 * 开发环境开启，线上环境关闭（线上排查问题的时候可以将sourcemap上传到错误监控系统）
-* source map 关键字：
+* source map 关键字：   
     eval:使用eval包裹模块代码     
     source map: 产生.map文件     
     cheap: 不包含列信息    
@@ -42,7 +42,9 @@
     module:包含loader的sourcemap    
     
 ### 提取页面公共资源
-* 
+* 基础库分离：将 react、react-dom基础库通过cdn引入，不打入bundle中
+* 方法：使用html-webpack-externals-plugin
+
 
 
 
