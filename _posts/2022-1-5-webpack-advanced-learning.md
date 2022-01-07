@@ -43,10 +43,22 @@
     
 ### 提取页面公共资源
 * 基础库分离：将 react、react-dom基础库通过cdn引入，不打入bundle中
-* 方法：使用html-webpack-externals-plugin
+* 使用html-webpack-externals-plugin
+* 利用SplitChunksPlugin进行公共脚本分离（webpack4内置的，替代CommonsChunkPlugin插件，chunks参数说明：async 异步引入的库进行分离，initial 同步引入的库进行分离，all 所有引入的库进行分离）
+![image.png](https://s2.loli.net/2022/01/07/AYo1bcOj6zuVga8.png)
 
+### Tree Shaking的使用和原理分析
+* 摇树优化，概念:1 个模块可能有多个⽅方法，只要其中的某个⽅方法使⽤用到了了，则整个⽂文件都会被打到 bundle ⾥里里⾯面去，tree shaking 就是只把⽤用到的⽅方法打⼊入 bundle ，没⽤用到的⽅方法会在 uglify 阶段被擦除掉
+* 使用:webpack 默认⽀支持，在 .babelrc ⾥里里设置 modules: false 即可。 production mode的情况下默认开启
+* 要求:必须是 ES6 的语法，CJS 的⽅方式不不⽀支持
 
-
+* DCE（Elimination）代码不不会被执行，不可到达;代码执行的结果不会被用到;代码只会影响死变量(只写不不读)
+* Tree-shaking原理：
+  >利⽤ ES6 模块的特点:    
+  只能作为模块顶层的语句句出现    
+  import 的模块名只能是字符串串常量量   
+  import binding 是 immutable的    
+  代码擦除: uglify 阶段删除⽆无⽤用代码   
 
 
 
