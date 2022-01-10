@@ -81,8 +81,8 @@
 ![image.png](https://s2.loli.net/2022/01/10/H8MQKfRBbO1Lu9z.png)
 
 * ESLint如何执行落地？
-  * 和CI/CD集成
-  * 和webpack集成
+  * 和CI/CD集成：安装husky ,npm i husky --save-dev
+  * 和webpack集成: 使用eslint-loader,构建时坚持啊JS规范
 
 
 
