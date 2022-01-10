@@ -78,9 +78,11 @@
 * ESLint代码检查工具
 * Airbnb: eslint-config-airbnb、eslint-config-airbnb-base
 * 制定谈对的ESLint规范：1.不重复造轮子，基于eslint:recommend配置并改进；2.能够帮助发现代码错误的规则全部开启；3.帮助保持团队的代码风格统一，而不是限制开发体验。
-* 
+![image.png](https://s2.loli.net/2022/01/10/H8MQKfRBbO1Lu9z.png)
 
-
+* ESLint如何执行落地？
+  * 和CI/CD集成
+  * 和webpack集成
 
 
 
