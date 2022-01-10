@@ -72,6 +72,16 @@
 ### 代码分割和动态import
 * 代码分割的意义：对于⼤大的 Web 应⽤来讲，将所有的代码都放在一个文件中显然是不够有效的，特别是当你的 某些代码块是在某些特殊的时候才会被使用到。webpack 有⼀个功能就是将你的代码库分割成 chunks(语块)，当代码运⾏到需要它们的时候再进行加载
 * 使用场景：1.抽离相同代码到⼀一个共享块；2.脚本懒加载，使得初始下载的代码更⼩
- 
+* 懒加载JS脚本的方式：1.CommonJS:require.ensure；2.ES6:动态 import(⽬目前还没有原⽣生⽀支持，需要 babel 转换
+
+### 在webpack中使用ESLint
+* ESLint代码检查工具
+* Airbnb: eslint-config-airbnb、eslint-config-airbnb-base
+* 制定谈对的ESLint规范：1.不重复造轮子，基于eslint:recommend配置并改进；2.能够帮助发现代码错误的规则全部开启；3.帮助保持团队的代码风格统一，而不是限制开发体验。
+* 
+
+
+
+
 
 
