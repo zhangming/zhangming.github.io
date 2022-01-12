@@ -85,6 +85,7 @@
   * 和webpack集成: 使用eslint-loader,构建时坚持啊JS规范
 
 ### webpack打包库和组件
+* webpack 除了了可以⽤来打包应⽤，也可以用来打包 js 库
 * 
 
 
