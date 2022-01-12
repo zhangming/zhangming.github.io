@@ -1,4 +1,11 @@
 ![image.png](https://s2.loli.net/2022/01/12/VGTFUqfWowJnxMr.png)
 参考文章：<https://juejin.cn/post/6844904116339261447>
 
-### 
+## JavaScript 基础
+![image.png](https://s2.loli.net/2022/01/12/vWb7eZc8PmMXszT.png)
+
+* 1.介绍下JavaScript的执行上下文
+  JavaScript 的可执行代码(executable code)的类型：全局代码、函数代码、eval代码
+  JavaScript 引擎创建了执行上下文栈（Execution context stack，ECS）来管理执行上下文
+  
+* 2.介绍下JavaScript的作用域
